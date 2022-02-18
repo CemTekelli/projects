@@ -38,6 +38,17 @@ class UserSeeder extends Seeder
                 'password' => Hash::make('F-urniture19'),
                 "created_at" => now()
             ],
+            [
+                'name' => "Tekelli",
+                'firstname' => "Cem",
+                'age' => 24,
+                'postalcode' => 1070,
+                'role_id' => 1,
+                'city' => "anderlecht",
+                'email' => "tek.cem@out.com",
+                'password' => Hash::make('F-urniture19'),
+                "created_at" => now()
+            ],
         ]);
     }
 }
