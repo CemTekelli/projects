@@ -17,24 +17,24 @@ class UserSeeder extends Seeder
     {
         DB::table('users')->insert([
             [
-                'name' => "Uslu",
-                'firstname' => "Emilie Ecem",
+                'name' => "Utku",
+                'firstname' => "Emilie",
                 'age' => 24,
                 'postalcode' => 1785,
                 'role_id' => 1,
                 'city' => "merchtem",
-                'email' => "info@innovafurniture.be",
+                'email' => "info@inno.be",
                 'password' => Hash::make('F-urniture19'),
                 "created_at" => now()
             ],
             [
-                'name' => "Caliskan",
-                'firstname' => "Ayhan",
+                'name' => "Calis",
+                'firstname' => "Ay",
                 'age' => 25,
                 'postalcode' => 1070,
                 'role_id' => 1,
                 'city' => "anderlecht",
-                'email' => "ayhan.cln1997@gmail.com",
+                'email' => "ayhan.cln1997@hotmail.com",
                 'password' => Hash::make('F-urniture19'),
                 "created_at" => now()
             ],
